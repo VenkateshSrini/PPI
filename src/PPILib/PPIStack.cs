@@ -82,7 +82,7 @@ namespace PPILib
                     if (searchNode.Value.Equals(tSearch))
                         return true;
                     else
-                        searchNode = head.Next;
+                        searchNode = searchNode.Next;
                 }
                 return false;
             }
@@ -113,16 +113,14 @@ namespace PPILib
             try
             {
                 T result = default(T);
-                if (depth > size)
+                if (depth > size -1)
                     return result;
-                else if (depth == size)
-                    return head.Value;
                 else
                 {
                     Node<T> node = head;
                     for (int counter = 0; counter < depth; counter++)
                     {
-                        node = head.Next;
+                        node = node.Next;
                     }
                     result = node.Value;
                     return result;

@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27428.2002
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5C72FC42-6BC1-4942-8964-CCAA85D3928D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{240CAB33-F410-45DA-A540-6936EF6F3FEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPILib", "src\PPILib\PPILib.csproj", "{292739BD-79FE-4E1C-BC92-9F265597FE22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PPILib", "src\PPILib\PPILib.csproj", "{292739BD-79FE-4E1C-BC92-9F265597FE22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPILIB.Unit.Test", "test\PPILIB.Unit.Test\PPILIB.Unit.Test.csproj", "{2AE26EAB-1EEE-4179-81AE-707CCAEC88DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +21,17 @@ Global
 		{292739BD-79FE-4E1C-BC92-9F265597FE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{292739BD-79FE-4E1C-BC92-9F265597FE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{292739BD-79FE-4E1C-BC92-9F265597FE22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AE26EAB-1EEE-4179-81AE-707CCAEC88DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AE26EAB-1EEE-4179-81AE-707CCAEC88DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AE26EAB-1EEE-4179-81AE-707CCAEC88DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AE26EAB-1EEE-4179-81AE-707CCAEC88DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{292739BD-79FE-4E1C-BC92-9F265597FE22} = {5C72FC42-6BC1-4942-8964-CCAA85D3928D}
+		{2AE26EAB-1EEE-4179-81AE-707CCAEC88DC} = {240CAB33-F410-45DA-A540-6936EF6F3FEA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7664CC46-69C3-490E-93F3-20DB6D8BE9B7}
