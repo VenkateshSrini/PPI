@@ -62,6 +62,7 @@ namespace PPILib
                 {
                     var returnVal = head.Value;
                     head = head.Next;
+                    if (Empty)
                     size--;
                     return returnVal;
                 }
